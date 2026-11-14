@@ -1,0 +1,15 @@
+class Maths{
+public static void main(String[] args){
+Float si = 5.5f;
+int t= 10;
+int s= 20;
+char var = 'h';
+ 
+ System.out.ptintln("Simple Interest: " + si);
+ System.out.println("Speed: " +s);
+ System.out.println("Speed: " +t);
+ System.out.println("Speed: " + var);
+ }
+ }
+ 
+ 

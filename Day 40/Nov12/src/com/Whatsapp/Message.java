@@ -1,0 +1,31 @@
+package com.Whatsapp;
+
+import java.io.Serializable;
+
+public class Message implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String messageID;
+	private String message;
+	public Message(String messageID, String message) {
+		super();
+		this.messageID = messageID;
+		this.message = message;
+	}
+	public String getMessageID() {
+		return messageID;
+	}
+	public void setMessageID(String messageID) {
+		this.messageID = messageID;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+
+}

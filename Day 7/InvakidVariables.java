@@ -1,0 +1,2 @@
+/*find out invalid variables names
+G*/

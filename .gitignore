@@ -1,0 +1,31 @@
+
+# Java compiled files
+*.class
+
+# Eclipse generated files
+bin/
+.metadata/
+.settings/
+
+# Maven generated files
+target/
+
+# Gradle generated files
+build/
+.gradle/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
